@@ -172,7 +172,7 @@ class WaveGlow(torch.nn.Module):
 
         self.upsample = torch.nn.ConvTranspose1d(n_mel_channels,
                                                  n_mel_channels,
-                                                 1024, stride=256)
+                                                 800, stride=200)
         assert(n_group % 2 == 0)
         self.n_flows = n_flows
         self.n_group = n_group
