@@ -5,13 +5,13 @@
         "learning_rate": 1e-4,
         "sigma": 1.0,
         "iters_per_checkpoint": 10000,
-        "batch_size": 1,
+        "batch_size": 2,
         "seed": 1234,
-        "checkpoint_path": "checkpoints/ljspeech/waveglow_140000"
+        "checkpoint_path": ""
     },
     "data_config": {
         "training_files":"train_files.txt",
-        "segment_length": 16000,
+        "segment_length": 8000,
         "sampling_rate": 16000,
         "filter_length": 1024,
         "hop_length": 200,

@@ -35,7 +35,7 @@ from scipy.io.wavfile import read
 import numpy as np
 
 # We're using the audio processing from TacoTron2 to make sure it matches
-sys.path.insert(0, '/home/will/dev/sushibot')
+sys.path.insert(0, '/home/will/sushibot')
 from hparams import hparams
 from utils.audio import melspectrogram
 
