@@ -14,8 +14,10 @@
         "segment_length": 8000,
         "sampling_rate": 16000,
         "filter_length": 1024,
-        "hop_length": 200,
-        "win_length": 800
+        "hop_length": 256,
+        "win_length": 1024,
+        "mel_fmin": 0.0,
+        "mel_fmax": 8000.0
     },
     "dist_config": {
         "dist_backend": "nccl",
