@@ -5,9 +5,9 @@
         "learning_rate": 1e-4,
         "sigma": 1.0,
         "iters_per_checkpoint": 5000,
-        "batch_size": 1,
+        "batch_size": 3,
         "seed": 1234,
-        "checkpoint_path": "checkpoints/shelby/waveglow_145000"
+        "checkpoint_path": ""
     },
     "data_config": {
         "training_files":"shelby.txt",
@@ -30,7 +30,7 @@
         "n_early_size": 2,
         "WN_config": {
             "n_layers": 8,
-            "n_channels": 512,
+            "n_channels": 128,
             "kernel_size": 3
         }
     }
